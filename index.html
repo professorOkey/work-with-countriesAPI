@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header__search">
+          <input
+            type="search"
+            class="search__item"
+            placeholder="search for a country"
+          />
+          <button type="submit" class="search__button">Search</button>
+        </nav>
+        <div class="header__filter">
+          <div class="filter__item">
+              <span class="item__button">Filter by region</span>
+          </div>
+          <p class="filter__theme-change">Change Theme</p>
+        </div>
+      </header>
+      <section class="country__list"></section>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
